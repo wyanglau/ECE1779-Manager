@@ -108,26 +108,7 @@
 		<servlet-name>StopAutoScadulingServlet</servlet-name>
 		<url-pattern>/StopAutoScadulingServlet</url-pattern>
 	</servlet-mapping>
-	<servlet>
-		<description></description>
-		<display-name>FileUploadServlet</display-name>
-		<servlet-name>FileUploadServlet</servlet-name>
-		<servlet-class>ece1779.servlets.FileUploadServlet</servlet-class>
 
-		<init-param>
-			<param-name>AWSaccessKey</param-name>
-			<param-value></param-value>
-		</init-param>
-		<init-param>
-			<param-name>AWSsecretKey</param-name>
-			<param-value></param-value>
-		</init-param>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>FileUploadServlet</servlet-name>
-		<url-pattern>/FileUploadServlet</url-pattern>
-	</servlet-mapping>
 	<servlet>
 		<description></description>
 		<display-name>DeleteServlet</display-name>
