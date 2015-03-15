@@ -46,8 +46,8 @@ public class MngrS3Operations {
 
 	public static void main(String[] args) {
 
-		String accessKey = "AKIAJNZQHVC2PW5M4QJA";
-		String secretKey = "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";
+		String accessKey = "";
+		String secretKey = "";
 		BasicAWSCredentials awsCredentials = new BasicAWSCredentials(accessKey,
 				secretKey);
 		MngrS3Operations s3 = new MngrS3Operations(awsCredentials);
